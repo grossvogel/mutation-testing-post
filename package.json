@@ -1,0 +1,24 @@
+{
+  "name": "mutation-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc --reporter=html --reporter=text mocha",
+    "mutation": "stryker run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "stryker": "^0.33.1",
+    "stryker-api": "^0.22.0",
+    "stryker-html-reporter": "^0.16.9",
+    "stryker-javascript-mutator": "^0.12.1",
+    "stryker-mocha-framework": "^0.13.2",
+    "stryker-mocha-runner": "^0.15.2"
+  }
+}
